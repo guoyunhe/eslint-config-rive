@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-rive",
+  "version": "1.0.0",
+  "description": "ESLint shareable configuration for RiVE projects",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/eslint-config-rive.git"
+  },
+  "keywords": [
+    "eslint",
+    "rive",
+    "react",
+    "typescript",
+    "prettier"
+  ],
+  "author": "Guo Yunhe",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/eslint-config-rive/issues"
+  },
+  "homepage": "https://github.com/guoyunhe/eslint-config-rive#readme"
+}
