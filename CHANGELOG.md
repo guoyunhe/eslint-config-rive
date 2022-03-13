@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Change to CJS module
+
 ## 1.0.0
 
 - Extend ESLint's recommended configuration

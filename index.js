@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -18,5 +18,3 @@ const config = {
     },
   },
 };
-
-export default config;
