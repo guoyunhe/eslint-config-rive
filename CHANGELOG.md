@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Add eslint config, plugin and parser dependencies
+
 ## 1.0.1
 
 - Change to CJS module
