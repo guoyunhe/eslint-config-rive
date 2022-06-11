@@ -24,5 +24,24 @@
   "bugs": {
     "url": "https://github.com/guoyunhe/eslint-config-rive/issues"
   },
-  "homepage": "https://github.com/guoyunhe/eslint-config-rive#readme"
+  "homepage": "https://github.com/guoyunhe/eslint-config-rive#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "typescript": "^4.0.0"
+  }
 }
