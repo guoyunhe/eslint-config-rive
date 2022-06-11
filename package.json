@@ -11,8 +11,10 @@
     "url": "git+https://github.com/guoyunhe/eslint-config-rive.git"
   },
   "keywords": [
-    "eslint",
     "rive",
+    "eslint",
+    "eslint-config",
+    "standard",
     "react",
     "typescript",
     "prettier"
