@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.1
+
+- Fix node module import resolver
+
 ## 1.3.0
 
 - Ignore build, coverage, dist, lib, node_modules and .rive folder
