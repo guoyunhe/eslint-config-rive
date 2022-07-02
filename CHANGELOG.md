@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+
+- Ignore build, coverage, dist, lib, node_modules and .rive folder
+
 ## 1.2.0
 
 - Add eslint-plugin-jest
