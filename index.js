@@ -18,9 +18,10 @@ module.exports = {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.d.ts', '.tsx'],
     },
+    // YOU MUST put typescript before node (see https://github.com/import-js/eslint-plugin-import/issues/2225#issuecomment-923516582)
     'import/resolver': {
-      node: {},
       typescript: {},
+      node: {},
     },
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
   },

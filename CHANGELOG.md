@@ -1,8 +1,12 @@
 # Changelog
 
+## 1.3.2
+
+- Fix order of typescript and node import resolver
+
 ## 1.3.1
 
-- Fix node module import resolver
+- Fix node import resolver
 
 ## 1.3.0
 
