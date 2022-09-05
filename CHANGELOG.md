@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.0
+
+- Update eslint-import-resolver-typescript and eslint-plugin-jest
+
 ## 1.3.2
 
 - Fix order of typescript and node import resolver
