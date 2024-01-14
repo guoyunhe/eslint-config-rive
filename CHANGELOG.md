@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.0.0
+
+- **BREAKING CHANGE**: Updated `@typescript-eslint/eslint-plugin` 5.x to 6.x
+- **BREAKING CHANGE**: Updated `@typescript-eslint/parser` 5.x to 6.x
+- **BREAKING CHANGE**: Updated `eslint-config-prettier` 8.x to 9.x
+- **BREAKING CHANGE**: Updated `eslint-plugin-prettier` 4.x to 5.x
+- **BREAKING CHANGE**: Updated `prettier` 2.x to 3.x
+- **BREAKING CHANGE**: Changed preset `prettier` to `plugin:prettier/recommended`
+- Added `typescript` 5.x support
+
 ## 1.4.0
 
 - Update eslint-import-resolver-typescript and eslint-plugin-jest
