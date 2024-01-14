@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1 - 2024-01-14
+
+- Changed license from `GPL-3.0` to `MIT`
+
 ## 2.0.0 - 2024-01-14
 
 - **BREAKING CHANGE**: Updated `@typescript-eslint/eslint-plugin` 5.x to 6.x

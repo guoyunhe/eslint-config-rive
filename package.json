@@ -19,8 +19,12 @@
     "typescript",
     "prettier"
   ],
-  "author": "Guo Yunhe",
-  "license": "GPL-3.0",
+  "author": {
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me",
+    "url": "https://guoyunhe.me/"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/guoyunhe/eslint-config-rive/issues"
   },
