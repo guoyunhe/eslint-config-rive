@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0
+## 2.0.0 - 2024-01-14
 
 - **BREAKING CHANGE**: Updated `@typescript-eslint/eslint-plugin` 5.x to 6.x
 - **BREAKING CHANGE**: Updated `@typescript-eslint/parser` 5.x to 6.x
