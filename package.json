@@ -3,6 +3,13 @@
   "version": "2.0.1",
   "description": "ESLint shareable configuration for RiVE projects",
   "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.js",
+    "react.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "eslint"
   },

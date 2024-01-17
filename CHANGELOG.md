@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2 - 2024-01-17
+
+- Split react config to separate file
+
 ## 2.0.1 - 2024-01-14
 
 - Changed license from `GPL-3.0` to `MIT`

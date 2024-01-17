@@ -4,8 +4,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
     'plugin:jest/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -13,7 +11,6 @@ module.exports = {
     project: './tsconfig.json',
     createDefaultProgram: true,
   },
-  plugins: ['@typescript-eslint', 'import', 'react', 'prettier'],
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.d.ts', '.tsx'],
@@ -25,5 +22,5 @@ module.exports = {
     },
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
   },
-  ignorePatterns: ['build', 'coverage', 'dist', 'lib', 'node_modules', '.rive'],
+  ignorePatterns: ['.rive', 'build', 'coverage', 'dist', 'lib', 'node_modules'],
 };
