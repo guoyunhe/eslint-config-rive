@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0 - 2024-01-20
+
+- Removed `eslint-plugin-import`
+- Changed `@typescript-eslint/no-explicit-any` from `error` to `warn`
+
 ## 2.0.2 - 2024-01-17
 
 - Split react config to separate file
