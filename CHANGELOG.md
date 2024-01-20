@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0 - 2024-01-20
+
+- Added `plugin:react/jsx-runtime` config
+
 ## 2.1.0 - 2024-01-20
 
 - Removed `eslint-plugin-import`
