@@ -10,6 +10,9 @@ module.exports = {
     project: './tsconfig.json',
     createDefaultProgram: true,
   },
+  rules: {
+    '@typescript-eslint/no-explicit-any': 'warn',
+  },
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.d.ts', '.tsx'],
