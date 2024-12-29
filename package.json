@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rive",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "ESLint shareable configuration for RiVE projects",
   "type": "module",
   "main": "index.js",
