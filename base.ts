@@ -1,14 +1,15 @@
-import js from "@eslint/js";
-import ts from 'typescript-eslint';
+import js from '@eslint/js';
 import prettier from 'eslint-plugin-prettier/recommended';
-import type { Linter } from "eslint";
+import ts from 'typescript-eslint';
 
-export default [
+const base = ts.config(
   js.configs.recommended,
-  ts.configs.recommendedTypeChecked as any,
+  ...ts.configs.recommended,
   prettier,
   {
     name: 'rive',
+    files: ['src/**/*.{js,jsx,ts,tsx}'],
+    ignores: ['*.min.js'],
     languageOptions: {
       parserOptions: {
         projectService: true,
@@ -18,4 +19,6 @@ export default [
       '@typescript-eslint/no-explicit-any': 'warn',
     },
   },
-] satisfies Linter.Config[];
+);
+
+export default base;

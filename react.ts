@@ -1,12 +1,14 @@
-import type { Linter } from 'eslint';
 import react from 'eslint-plugin-react';
+import ts from 'typescript-eslint';
 import base from './base.js';
 
-export default [
+const config = ts.config(
   ...base,
-  react.configs.recommended,
-  react.configs['jsx-runtime'],
+  react.configs.recommended as any,
+  react.configs['jsx-runtime'] as any,
   {
     name: 'rive/react',
   },
-] satisfies Linter.Config[];
+);
+
+export default config;
