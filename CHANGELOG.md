@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.0 - 2024-12-29
+
+- **BREAKING CHANGE**: Updated `eslint` from 8.x to 9.x with new configuration file format
+- **BREAKING CHANGE**: Removed `typescript` 4.x support
+- Updated `@typescript-eslint/eslint-plugin` from 6.x to 8.x
+- Updated `@typescript-eslint/parser` from 6.x to 8.x
+- Updated `eslint-plugin-react-hooks` from 4.x to 5.x
+
 ## 2.2.0 - 2024-01-20
 
 - Added `plugin:react/jsx-runtime` config
