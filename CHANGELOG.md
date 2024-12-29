@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0 - 2024-12-29
+
+- Changed to `eslint` 9.x style exports
+
 ## 3.0.0 - 2024-12-29
 
 - **BREAKING CHANGE**: Updated `eslint` from 8.x to 9.x with new configuration file format

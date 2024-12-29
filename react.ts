@@ -1,13 +1,12 @@
-import base from './index.js';
+import type { Linter } from 'eslint';
+import react from 'eslint-plugin-react';
+import base from './base.js';
 
 export default [
-  base,
+  ...base,
+  react.configs.recommended,
+  react.configs['jsx-runtime'],
   {
     name: 'rive/react',
-    extends: [
-      'plugin:react/recommended',
-      'plugin:react/jsx-runtime',
-      'plugin:react-hooks/recommended',
-    ],
   },
-];
+] satisfies Linter.Config[];

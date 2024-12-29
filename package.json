@@ -4,9 +4,12 @@
   "description": "ESLint shareable configuration for RiVE projects",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "CHANGELOG.md",
     "LICENSE",
+    "base.js",
+    "base.d.ts",
     "index.js",
     "index.d.ts",
     "react.js",
