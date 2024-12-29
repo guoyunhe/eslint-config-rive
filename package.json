@@ -2,6 +2,7 @@
   "name": "eslint-config-rive",
   "version": "3.0.0",
   "description": "ESLint shareable configuration for RiVE projects",
+  "type": "module",
   "main": "index.js",
   "files": [
     "CHANGELOG.md",
@@ -11,6 +12,7 @@
     "README.md"
   ],
   "scripts": {
+    "build": "tsc",
     "test": "eslint"
   },
   "repository": {
@@ -37,17 +39,18 @@
   },
   "homepage": "https://github.com/guoyunhe/eslint-config-rive#readme",
   "devDependencies": {
+    "@types/node": "^22.10.2",
     "eslint": "^9.17.0",
     "prettier": "^3.4.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.18.2",
-    "@typescript-eslint/parser": "^8.18.2",
+    "@eslint/js": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.3",
-    "eslint-plugin-react-hooks": "^5.1.0"
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "typescript-eslint": "^8.18.2"
   },
   "peerDependencies": {
     "eslint": "^9.0.0",
